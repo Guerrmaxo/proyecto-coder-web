@@ -89,12 +89,12 @@
         Metodologia para crear clases pensando en bloques o componentes de la interfaz, que pueden ser identificados como reutilizables
 
     Como usar
-        Para usar BEM, solo necesita emplear la convenciÃ³n de nomenclatura de BEM es decir una forma de escribir o crear clases pensando en BEM.
+        Para usar BEM, solo necesita emplear la convenciÃƒÂ³n de nomenclatura de BEM es decir una forma de escribir o crear clases pensando en BEM.
 
     Caracteristicas - Nomenclatura
-        Bloque -> Entidad independiente que es significativa por sÃ­ misma.
-        Elemento's -> Una parte de un bloque que no tiene un significado independiente y estÃ¡ ligada semÃ¡nticamente a su bloque.
-        Modificador'es -> Una bandera (diferencia) en un bloque o elemento. Ãšsalos para cambiar la apariencia o el comportamiento.
+        Bloque -> Entidad independiente que es significativa por sÃƒÂ­ misma.
+        Elemento's -> Una parte de un bloque que no tiene un significado independiente y estÃƒÂ¡ ligada semÃƒÂ¡nticamente a su bloque.
+        Modificador'es -> Una bandera (diferencia) en un bloque o elemento. ÃƒÅ¡salos para cambiar la apariencia o el comportamiento.
 
     Ejemplo Generico
         .bloque
