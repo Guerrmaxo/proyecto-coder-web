@@ -1,0 +1,487 @@
+/* Codigo CSS para nuestro proyecto */
+
+/* * {
+    margin: 0;
+    padding:0;
+} */
+
+/* #body{
+    background-color: red;
+}
+
+.body{
+    background-color: pink;
+} */
+
+/* body{
+    background-color: rgba(213, 213, 218, 0.377) !important; }
+
+/* Para cambiar la tipografia a toda la pagina, se debe poner "font-family" en el body */
+
+/* .titulo{
+    color: black ;
+    font-style: italic;
+    font-weight: 10px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif; 
+    text-align: center;
+    text-decoration: underline;
+    
+}
+/* valor por defecto 1.2 es igual a 1.2 * 16px = 19px */
+
+/* .titulo-dest{
+    border: 2px solid navy;
+} */
+
+/* #parrafounico{
+    color: rgb(3, 7, 3);
+    line-height: 5;
+    font-family: 'Roboto', sans-serif;
+} */
+
+/* article { 
+    width: 100%;
+    height: 500px;
+    background-image: url(../imagenes/Anillas.jpeg) ;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+
+
+
+
+
+
+
+/* Clase 4 de CSS */
+
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+/* body {
+    font-family: 'Outfit', sans-serif; */
+    /* background-color: rgb(91, 94, 83); */
+/* } */
+
+/* .bem {
+    height: 200vh;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.bem__h2 {
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 20px;
+
+    margin-bottom: 2rem; */
+/* } */
+
+
+/* 
+    BEM
+        Metodologia para crear clases pensando en bloques o componentes de la interfaz, que pueden ser identificados como reutilizables
+
+    Como usar
+        Para usar BEM, solo necesita emplear la convenciÃ³n de nomenclatura de BEM es decir una forma de escribir o crear clases pensando en BEM.
+
+    Caracteristicas - Nomenclatura
+        Bloque -> Entidad independiente que es significativa por sÃ­ misma.
+        Elemento's -> Una parte de un bloque que no tiene un significado independiente y estÃ¡ ligada semÃ¡nticamente a su bloque.
+        Modificador'es -> Una bandera (diferencia) en un bloque o elemento. Ãšsalos para cambiar la apariencia o el comportamiento.
+
+    Ejemplo Generico
+        .bloque
+        .bloque__elemento
+        .bloque--modificador
+        .bloque__elemento--modificador
+*/
+
+.tarjeta {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 10px 10px 5px rgba(240, 13, 164, 0.8);
+    border-radius: 10px;
+    text-align: left;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+   
+
+    /* Propiedades del Modelo de Caja */
+    /* width, height, padding, border, margin */
+    /* width: 300px; 
+    height: 450px; */
+    padding: 1rem; 
+    margin: 0 auto; /* Centrar un elemento que tenga ancho definido y sea de bloque */
+    margin-bottom: 1rem;
+    border: 5px solid red;
+    /* border-top:solid 5px red;	
+    border-right:solid 10px cyan;
+    border-bottom:solid 7px green;
+    border-left:solid 12px yellow; */
+
+    /* overflow: hidden; /* Ocultar algo que se desborde coloco esta propiedad con el valor hidden */
+
+    position: relative;
+ }
+
+ .tarjeta__video {
+     display: flex;
+     justify-content: center ;
+ }
+
+/* .tarjeta__imagen {
+    border-radius: inherit;
+
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.tarjeta__titulo {
+    color: rgb(31, 50, 81);
+    font-size: 15px;
+
+    margin: 1rem 0;
+}
+
+.tarjeta__texto {
+    color: rgb(123, 135, 157);
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.tarjeta__texto--ocultar {
+    display: none;
+}
+
+.tarjeta--bgdark {
+    background-color: #333333;
+}
+
+.tarjeta--bgdark .tarjeta__titulo {
+    color: #ffffff;
+}
+
+.tarjeta__icono {
+    background-color: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    
+    height: 30px;
+    width: 30px;
+
+    display: block;
+
+    position: absolute;
+    /* top, left, right, bottom */
+    /* top: 2rem;
+    right: 2rem;
+} */
+
+/* .tarjeta__icono i {
+    line-height: 30px;
+} */
+
+/* .whatsapp {
+    position: fixed;
+    right: 2rem;
+    top: 2rem;
+    background-color: green;
+    color: white;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+} */
+
+/* .color__aHeader {
+    color: palevioletred;
+} */
+
+/* .header__flex {
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    /* align-content: space-between;  */
+/* } */
+/* .tarjeta__logo {
+    border-radius: inherit;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+} */
+
+/* .anillas__centro {
+    object-fit: cover;
+} */
+
+/* HEADER */
+
+.header {
+    height: 60px;
+    box-shadow: 0 2px 5px rgba(5, 139, 180, 0.3);
+    padding: 1rem;
+    position: relative;
+    background-color: rgba(252, 249, 249, 0.822);
+}
+
+.header__contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grad {
+    background-image: linear-gradient( to bottom, rgb(201, 201, 28), rgba(0, 225, 255, 0.589), rgb(153, 8, 105) );
+}
+
+.transform__div {
+    transform: scale(0.90,0.90);
+}
+
+
+
+.header__marca {
+    height: 70px;
+    width: 70px;
+    display: flex; 
+    justify-content: flex-start;
+}
+
+.header__marca img {
+height: 100%;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+}
+
+.nav {
+    display: block;
+}
+
+.nav__lista {
+    display: flex;
+    list-style: none;
+}
+
+.nav__item {
+    margin-left: 1rem;
+
+}
+
+.nav__enlace {
+    color: #4d0334;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+}
+
+/* Section 1 */
+
+.hero {
+    padding: 1rem 1rem;
+}
+
+.hero__contenedor {
+    max-width: 1200px;
+    /* background-color: rgba(252, 249, 249, 0.822); */
+    /* background-image: url(../imagenes/sprinkle.svg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+
+}
+
+.hero__left, .hero__right {
+    width: 50%;
+}
+
+
+
+.hero__right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-content: flex-end;
+}
+
+.hero__title {
+    font-size: 60px;
+    color: #03466d;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.hero__subtitle {
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+.hero__paragraph {
+    line-height: 1.4;
+    padding-bottom: 2rem;
+}
+
+.hero__subtitle span {
+    color: #03466d;
+}
+
+.titulos__video {
+    display: grid;
+    color: navy;
+    grid-template-columns: 100px 100px ;
+    grid-template-rows: 100px 100px;
+    margin: 2rem;
+    padding: 2rem;
+
+}
+
+
+
+/* TRANSICIONES HOVER */
+
+.div__transition {
+    height: 100px;
+    width: 100px;
+    transition: height 2s, width 1s ;
+    background-color: yellow;
+    padding: 10px;
+}
+.div__transition:hover {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    background-color: tomato;
+}
+
+/* TRANSICIONES FOCUS */
+
+.input__contacto {
+    transition: all 2s;
+}
+
+.input__contacto:focus {
+    width: 200px;
+    font-size: 24px;
+}
+
+/* LINEA DE TIEMPO */ 
+/* TRABAJA EN LA IMAGEN DE LAS ANILLAS (HAY QUE PONER EL NOMBRE DE LO QUE UNO QUIERE QUE HAGA ESA LINEA DE TIEMPO EJEMPLO H1:SECTION:P: ETC */
+/* img {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: un_efecto ; /* Obligatoria */
+   /* animation-iteration-count: infinite ;
+    animation-timing-function: ease-in ;
+    animation-duration: 10s ; /* Obligatoria */
+   /* animation-delay: 1s ; */
+
+/* } */
+
+/* @keyframes un_efecto {
+    0%{ width: 100px; }
+    25%{ width: 300px; }
+    50%{ width: 200px;
+      background-color: red; }
+    75%{ width: 300px;}
+    100%{ width: 100px;
+      background-color:green;}
+ } */
+/* LABURA EN TODOS LOS TITULOS H1 */
+
+ h1 {
+     animation-duration: 2s;
+     animation-name: aparecer;
+     animation-iteration-count: 10s;
+ }
+
+ @keyframes aparecer{
+     0% {opacity: 0;
+    }
+    100% {opacity: 1;
+    }
+ }
+
+/* FOOTER */
+
+.footer {
+    padding: 2rem 1rem;
+}
+
+.footer__contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* background-color: hotpink; */
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__copy {
+    font-size: 12px;
+}
+
+.footer__copy a {
+    color: #0D623B;
+    font-weight: 700;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+
+
+/* Media Querys */
+/* Es importante que las medias esten al final del archivo CSS */
+/* Las medias deben tener un orden especifico */
+/* Aca trabajamos pensando primero en Desktop First */
+
+/* Tablet */
+@media screen and (max-width: 1024px ) {
+    .header {
+        height: auto;
+    }
+        
+    .header__contenedor {
+        flex-direction: column;
+    }
+
+    .hero__contenedor {
+        flex-direction: column;
+    }
+
+    .hero__left, .hero__right {
+        width: 100%;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 600px ) {
+    .nav__lista {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
