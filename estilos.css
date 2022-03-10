@@ -358,6 +358,10 @@ height: 100%;
 
 }
 
+.video__width {
+    width: auto;
+}
+
 
 
 /* TRANSICIONES HOVER */
